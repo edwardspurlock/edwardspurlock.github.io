@@ -1,0 +1,20 @@
+--- 
+#to make sure Jekyll reads this 
+--- 
+
+@import "default";
+@import "author";
+@import "footer";
+@import "grid_layout";
+@import "home";
+@import "nav";
+@import "post";
+@import "taxonomy";
+
+.search__toggle {
+
+    color: white;  // was $primary-color (defined in _variables.scss
+    &:hover {
+      color: rgb(113, 192, 245);  // was mix(#000, $primary-color, 25%);
+    }
+  }

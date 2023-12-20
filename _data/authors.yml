@@ -1,0 +1,11 @@
+Edward Spurlock:
+  name        : "Edward Spurlock"
+  bio         : "I analyze, implement, and explain things. Reach out to me using one of the links below."
+  avatar      : "/assets/images/with_server.png"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:name@email.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://edward.spurlock.cc"

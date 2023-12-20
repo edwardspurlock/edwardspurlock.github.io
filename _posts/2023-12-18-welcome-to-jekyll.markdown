@@ -1,8 +1,15 @@
 ---
-layout: post
+layout: posts
 title:  "Welcome to Jekyll!"
 date:   2023-12-18 23:11:14 +0000
-categories: jekyll update
+categories: projects blog
+highlight_home: true
+tags: education
+description: This is the default Jekyll post
+header:
+ overlay_image: /assets/images/AdobeStock_186470187.jpeg
+ teaser: /assets/images/AdobeStock_186470187.jpeg
+ caption: Austin, Texas
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
