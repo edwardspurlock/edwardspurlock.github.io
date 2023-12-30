@@ -6,7 +6,7 @@ main:
     url: /about/
   - title: "Projects"
     url: /projects/
+  - title: "Work Stories"
+    url: /work_stories/
   - title: "Blog"
     url: /blog/
-  - title: "Sitemap"
-    url: /sitemap/

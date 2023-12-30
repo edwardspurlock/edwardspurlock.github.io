@@ -18,3 +18,18 @@
       color: rgb(113, 192, 245);  // was mix(#000, $primary-color, 25%);
     }
   }
+
+  body {
+    line-height: 1.25;
+  }
+
+  .archive {
+    padding-right: 100px;
+  }
+
+  @media (min-width: 64em){
+    html {
+      font-size: 18px;
+    }
+  }
+
