@@ -2,7 +2,7 @@
 layout: posts
 title:  "Welcome to Jekyll!"
 date:   2023-12-18 23:11:14 +0000
-categories: projects blog
+categories: blog
 highlight_home: true
 tags: education
 description: This is the default Jekyll post

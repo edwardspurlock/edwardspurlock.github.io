@@ -7,3 +7,11 @@ permalink: /projects/
 ---
 
 ## This is the index.md file inside the projects source directory
+{% assign entries_layout = page.entries_layout | default: 'grid' %}
+<div class="entries-{{ entries_layout }}">
+  {% for post in site.posts %}
+   {% if post.categories contains "projects" %}
+    {% include archive-single.html type=entries_layout %}
+   {% endif %}
+  {% endfor %}
+</div>

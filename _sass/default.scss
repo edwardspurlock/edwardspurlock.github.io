@@ -10,20 +10,22 @@ a:visited {
     color: #da6900
 }
 
-h3,
+h3, h4,
 h3.archive__subtitle {
     clear: both;
-    color: #103966;
-    font-family: "Waiting for the Sunrise";
-    font-size: 1.35em;
+    color: #00a8db;
+    font-family: "Montserrat";
+    /*font-size: 1.25em;*/
 }
+/*
+original h3: #00a8db
+masthead color: #475bc9
 
-
-
+*/
 h1,
 h2 {
-    color: #00a8db;
-    font-family: "Rubik";
+    color: #103966;
+    font-family: "Montserrat";
     font-weight: 700;
 }
 
@@ -32,7 +34,7 @@ p,
 .archive__item-title,
 a,
 body {
-    font-family: "Work Sans";
+    font-family: "Martel";
 }
 
 #main {

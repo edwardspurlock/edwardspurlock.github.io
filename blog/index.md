@@ -6,11 +6,11 @@ author_profile: true
 ---
 
 ## This is the index.md file inside the blog source directory
-{% assign entries_layout = page.entries_layout | default: 'grid' %}
+{% assign entries_layout = page.entries_layout | default: 'list' %}
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "My Blog" }}</h3>
 <div class="entries-{{ entries_layout }}">
 {% for post in site.posts%}
-    {% if post.categories contains "blog" %}
+    {% if post.categories contains "blog" and post.status != 'draft' %}
         {% include archive-single.html type=entries_layout %}
     {% endif %}
 {% endfor %}
