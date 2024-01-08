@@ -18,9 +18,11 @@
       color: rgb(113, 192, 245);  // was mix(#000, $primary-color, 25%);
     }
   }
-  /* cutting the top margin down from 2em in _base.scss so that blog articles in a list won't have a huge margin*/
+  /* cutting the top margin down from 2em in _base.scss so that blog articles in a list won't have a huge margin,
+  and cutting the font size down so that long titles don't wrap and cause the content to spill outside the box */
   article.archive__item h2.archive__item-title {
     margin: 0.5em 0 0;
+    font-size: 1em;
   }
   /* The archive__item height was defined as 17em in grid_layout.scss -- that took up way too much space on the page
      when articles were displayed in a "list" layout (e.g. "{% assign entries_layout = page.entries_layout | default: 'grid' %}" )
