@@ -29,7 +29,7 @@
      A height of 12em is enough to display a teaser image, single-line title, and default excerpt
      I may need to increase the archive__item height back to 17em for "grid" layout if I include images in more posts */
   .grid__item article.archive__item {
-    height: 13em;
+    height: 17em;
   }
   /* As noted above, grid_layout.scss set the archive__item height for both "list" and "grid" layout to 17 em
      17em is WAY too much for a simple list layout, so I'm cutting it down to 7em 
