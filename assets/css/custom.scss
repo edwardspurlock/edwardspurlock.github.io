@@ -46,6 +46,11 @@
     margin-top: 0;
   }
 
+  /* theme's _masthead.scss sets a 1px #f2f3f3bottom border on the masthead - 
+     this creates an obvious light line between the masthead and my hero image */
+  .masthead {
+    border-bottom: 0 solid #f2f3f3;}
+
   .page__hero--overlay {
     color: #ccc;
   }
