@@ -24,13 +24,16 @@
     margin: 0.5em 0 0;
     font-size: 1em;
   }
-  /* The archive__item height was defined as 17em in grid_layout.scss -- that took up way too much space on the page
-     when articles were displayed in a "list" layout (e.g. "{% assign entries_layout = page.entries_layout | default: 'grid' %}" )
-     A height of 12em is enough to display a teaser image, single-line title, and default excerpt
-     I may need to increase the archive__item height back to 17em for "grid" layout if I include images in more posts */
+  
   .grid__item article.archive__item {
     height: 17em;
   }
+
+  .grid__item article.archive__item h3 {
+    margin: 0;
+    font-size: 0.75em;
+  }
+
   /* As noted above, grid_layout.scss set the archive__item height for both "list" and "grid" layout to 17 em
      17em is WAY too much for a simple list layout, so I'm cutting it down to 7em 
      (may need to increase it a bit if I include date or category info in the "list" layout) */
