@@ -46,6 +46,14 @@
     margin-top: 0;
   }
 
+  .page__hero--overlay {
+    color: #ccc;
+  }
+
+  .page__hero--overlay h2 {
+    display: none;
+  }
+
   body {
     line-height: 1.25;
   }
