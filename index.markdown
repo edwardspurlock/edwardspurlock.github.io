@@ -5,6 +5,8 @@
 layout: home
 author: Edward Spurlock
 author_profile: true
+header:
+ overlay_image: /assets/images/encrypted_data.png
 ---
 ![Edward Spurlock](/assets/images/with_server.png){:.avatar}
 # Hi, I'm Edward Spurlock
