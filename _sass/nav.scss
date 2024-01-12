@@ -1,5 +1,5 @@
 .masthead {
-    background-color: #475bc9
+    background-color: #0a223d;
 }
 
 #site-nav {
@@ -8,7 +8,10 @@
 
 #site-nav a,
 #site-nav a:visited {
-    color: #ffffff;
+    color: #ddeeed;
+    &:hover {
+        color: white;
+      }
 }
 
 #site-nav a,
