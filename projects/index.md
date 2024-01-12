@@ -4,6 +4,8 @@ layout: categories_projects
 author: Edward Spurlock
 author_profile: true
 permalink: /projects/
+header:
+ overlay_image: /assets/images/encrypted_data.png
 ---
 
 ## This is the index.md file inside the projects source directory
