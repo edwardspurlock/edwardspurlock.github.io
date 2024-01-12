@@ -13,9 +13,9 @@
 
 .search__toggle {
 
-    color: white;  // was $primary-color (defined in _variables.scss
+    color: #8cc4c0;  // was $primary-color (defined in _variables.scss)
     &:hover {
-      color: rgb(113, 192, 245);  // was mix(#000, $primary-color, 25%);
+      color: white;  // was mix(#000, $primary-color, 25%);
     }
   }
   /* cutting the top margin down from 2em in _base.scss so that blog articles in a list won't have a huge margin,
@@ -50,6 +50,10 @@
      this creates an obvious light line between the masthead and my hero image */
   .masthead {
     border-bottom: 0 solid #f2f3f3;}
+
+  .masthead__inner-wrap {
+      padding: 0 1em;
+  }
 
   .page__hero--overlay {
     color: #ccc;
