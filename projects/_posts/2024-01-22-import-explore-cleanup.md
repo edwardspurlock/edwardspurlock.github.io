@@ -311,6 +311,24 @@ and verified that the numbers were the same as before:
 | 2022-06-30 | 16,828 | 256,172 | 15.22 |
 | 2023-06-30 | 16,014 | 255,257 | 15.94 |
 
+<em><strong>Update January 29, 2024:</strong></em>  
+<em>I checked the monthly total count of Club Numbers for all years, and found that March 2020 also showed duplicate data:</em>
+<table>
+<thead><tr><th>Date</th><th>COUNT("Club Number")</th></tr></thead>
+<tbody><tr><td>2020-02-29</td><td>18,187</td></tr><tr><td>2020-03-31</td><td>36,351</td></tr>
+<tr><td>2020-04-30</td><td>17,892</td></tr></tbody>
+</table>
+		
+<em>Since I have already combined the years into a single data file, I "de-duped" all years at once:</em>
+```
+%%sql
+CREATE TABLE tbl_all_distinct AS SELECT DISTINCT * FROM tbl_all;
+DROP TABLE tbl_all;
+ALTER TABLE tbl_all_distinct RENAME TO tbl_all;
+```
+<em>I then re-ran the Total Clubs, Total Members, and Members/Club counts to verify the new tbl_all shows the same year-end numbers as the previous version.
+</em>
+
 ## Next steps
 Since the CSV files in Google Cloud Storage still contain two different formats for the Date parameter, I need to do a short Python or Excel project to update the files for 2016-2017...2019-2020 to a consistent format. 
 
