@@ -16,7 +16,7 @@ status: published
 
 As I noted in the introduction on the blog landing page, I've been blogging for years using WordPress. In fact, this isn't the first time I've relaunched my WordPress blog. I originally started a blog focused on web design in 2011. I created more than 90 posts in 2011 and 2012, then decided to move my blog to a new hosting provider. I backed up the existing posts to XML files on my local hard drive, then created a new WordPress blog in late 2013 and started blogging. I meant to migrate the backed up posts to the new blog, but never got around to it.
 
-I've been updating this site for several weeks since mid-December 2023. I originally hoped to have the site ready to relaunch on January 1. As January 1 came and went, I thought I would postdate this post to January 1, making it look like I had it ready on time. A couple of days ago, I realized that relaunching in early February would be more honest - better still, it gives me an excuse to reference one of my favorite movies!  
+I've been updating this site for several weeks since mid-December 2023. I originally hoped to have the site ready to relaunch on January 1. As January 1 came and went, I thought I would postdate this post to January 1, making it look like I had it ready on time. A couple of days ago, I realized that relaunching in early February would be more honest - and it gives me an excuse to reference one of my favorite movies.  
 
 ## Why the relaunch?
 In the past couple of years, I've realized I want to change my career to data analysis or data engineering. Last year, I went through the Google Data Analytics Certificate curriculum and some other related courses on Coursera.  
